@@ -1,5 +1,5 @@
 def return_all_genres(movies):
-    ganres = {}
+    ganres = set()
     for movie in movies:
         ganres.update(movie['genre'])
 
